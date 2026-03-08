@@ -1,0 +1,14 @@
+#include <stdio.h>
+2
+3 int main() {
+4 int y = 5;
+5 int z = 11;
+6 int w;
+7 w = y + z;
+8 if (y > z) {
+9 w = y * z;
+10 }
+11 printf("%d", w);
+12 return 0;
+13 }
+//o valor de w após a execução será = 16//
