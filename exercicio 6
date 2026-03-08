@@ -1,0 +1,20 @@
+//RESPOSTAS DA QUESTÃO 6:
+a) saida do programa: 
+while:0
+while:1
+while:2
+while:3
+while:4
+while:5
+while:6
+while:7
+while:8
+while:9
+do:10
+b)diferença ente while e do while:
+no while, a condição é testada antes da execução do bloco.se for falsa de inicio, o código nunca roda.
+no do while, o bloco é executado pelo menos uma vez antes da condição ser testada. No exemplo, como o 'i' já era 10 ao sair do while , o do imprimiu 10 e só depois parou 
+d)diferença entre while e for:
+o for é usado quando sabemos previamente o núme]ro de repetições (iteraçãoes)
+o while é preferivel quando a repetição depende de uma condição que pode mudar a qualquer momento e não sabemos exatamente quantas vezes o laço rodará.
+//
