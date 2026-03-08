@@ -1,0 +1,15 @@
+//RESPOSTAS DA QUESTÃO 8
+
+a)A função free é usada para liberar a memória que foi previamente alocada dinamicamente por funções como malloc, calloc ou realloc.
+Após a execução de free, a memória é devolvida ao sistema e pode ser reutilizada por outros programas ou partes do código.
+
+b)Não. Após chamar free, o ponteiro passa a apontar para uma região de memória inválida (chamada de ponteiro pendente ou dangling pointer).
+O uso desse ponteiro pode causar erros ou comportamento indefinido.
+
+c)Vazamento de memória (memory leak) ocorre quando um programa aloca memória dinamicamente, mas não a libera com free.
+Isso faz com que a memória fique ocupada até o programa terminar, podendo causar consumo excessivo de memória.
+
+e)A função calloc é usada para alocar memória dinamicamente para vários elementos de um vetor.
+
+f) malloc - Aloca memória sem inicializar os valores
+calloc - Aloca memória e inicializa todos os bytes com 0
