@@ -1,0 +1,15 @@
+//RESPOSTAS DA QUESTÃO 7:
+
+a) Modos de abertura de arquivos:
+   - "r": Abre para leitura (o arquivo deve existir).
+   - "w": Abre para escrita. Se o arquivo já existir, apaga o conteúdo. Se não, cria um novo.
+   - "a": Abre para anexar (append). Adiciona o novo conteúdo ao final do arquivo existente.
+   - "r+": Abre para leitura e escrita.
+   - "b": Usado junto com os outros (ex: "rb") para indicar arquivos binários.
+
+b) Funcionamento das funções:
+   - fgets: Lê uma string (uma linha) de um arquivo ou fluxo, limitando o número de caracteres para evitar estouro.
+   - fprintf: Funciona como o printf, mas direciona a saída formatada para um arquivo específico.
+   - fread: Lê blocos de dados binários diretamente do arquivo para a memória.
+   - fwrite: Escreve blocos de dados binários da memória diretamente para o arquivo.
+//
