@@ -1,0 +1,18 @@
+#include <stdio.h>
+2
+3 int main() {
+4 int a = 5;
+5 int b = 11;
+6 float c;
+7
+8 scanf("%d %d", &a, &b);
+9
+10 if(a > b || !(a > 0)) {
+11 c = (float)(b / a);
+12 } else {
+13 c = (float)(a / b);
+14 }
+15 printf("%.2f\n", c);
+16 return 0;
+}
+//valor da saida será 0//
