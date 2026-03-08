@@ -1,0 +1,3 @@
+//a) vetor é uma estrutura que armazena vários elementos do mesmo tipo de fomra sequencial na memória.
+b) string é um vetor de caracteres (char)que termina obrigatoriamente com o caractere nulo '\0.
+//
