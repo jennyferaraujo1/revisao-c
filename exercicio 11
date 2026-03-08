@@ -1,0 +1,14 @@
+//RESPOSTAS DA QUESTÃO 11:
+
+a) Diferença entre Pilha e Fila:
+   - Pilha (Stack): Segue a lógica LIFO (Last In, First Out). O último elemento a entrar é o primeiro a sair.
+   - Fila (Queue): Segue a lógica FIFO (First In, First Out). O primeiro elemento a entrar é o primeiro a sair.
+
+b) Vantagens e Desvantagens da Fila:
+   - Vantagens: Garante a ordem de chegada e justiça no processamento (ex: fila de impressão).
+   - Desvantagens: Acesso limitado. Você só pode remover o elemento que está na frente. Para acessar um item no meio, precisa remover todos os anteriores.
+
+c) Diferença entre Pilha/Fila e Lista Encadeada:
+   - Pilhas e Filas possuem regras rígidas de onde você pode inserir ou remover dados (topo ou extremidades).
+   - Listas Encadeadas são flexíveis: você pode inserir ou remover elementos em qualquer posição (início, meio ou fim) apenas manipulando os ponteiros 'prox'.
+//
